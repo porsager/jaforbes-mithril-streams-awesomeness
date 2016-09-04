@@ -1,1 +1,2 @@
-# mithriltest
+Experimenting with the Mithril Rewrite
+======================================

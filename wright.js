@@ -16,7 +16,6 @@ function compile() {
 
   return new Promise((resolve, reject) => {
     browserify('./public/client.js')
-    .plugin(tsify, { noImplicitAny: true })
     .bundle((err, src) => err ? reject(err) : resolve(src.toString()))
   })
 

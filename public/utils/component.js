@@ -13,7 +13,8 @@ function component(Component){
     vnode.state.onupdate( vnode )
   }
   vnode.onbeforeupdate = (vnode, old) => {
-    return old.instance != vnode.state.view()
+    return true
+    // return old.instance != vnode.state.view()
   }
   
   return vnode

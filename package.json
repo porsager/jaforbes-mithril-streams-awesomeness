@@ -4,9 +4,10 @@
 	"description": "What am I about?",
 	"main": "server.js",
 	"scripts": {
-	  "start": "node server.js"
+	  "start": "node wright.js"
 	},
 	"dependencies": {
+    "wright": "porsager/wright",
     "express": "^4.12.4",
     "j2c": "*",
     "ramda": "*",
